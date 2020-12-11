@@ -1,0 +1,79 @@
+nav{
+	position: fixed;
+}
+img.icon{
+	width: 10rem;
+	height: 2.5rem;
+}
+div.int{
+	height: 53vh;
+	width: 100%;
+}
+div.integration-text{
+    width: 23rem;
+	margin-top: 5rem;
+	padding-right: 2rem;
+}
+p.text{
+    font-family: luna;
+}
+img.iconfoot{
+	width: 10rem;
+	height: 5rem;
+}
+
+div.footer{
+	height: 10rem;
+	width: 100%;
+	background-color: rgb(250, 248, 248);
+	padding: 2rem;
+	line-height: 0.7rem;
+}
+.iconicon{
+	width: 3.1rem;
+	height: 2.8rem;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {  
+   
+nav{
+	position: fixed;
+}
+img.icon{
+	width: 10rem;
+	height: 2.5rem;
+}
+div.int{
+    height: 53vh;
+}
+div.integration-text{
+    width: 26rem;
+    margin-top: 5rem;
+}
+p.text{
+    font-family: luna;
+}
+img.iconfoot{
+	width: 10rem;
+	height: 5rem;
+}
+
+div.footer{
+	height: 10rem;
+	width: 100%;
+	background-color: rgb(250, 248, 248);
+	padding: 2rem;
+	line-height: 0.7rem;
+}
+.iconicon{
+	width: 3.1rem;
+	height: 2.8rem;
+}
+}

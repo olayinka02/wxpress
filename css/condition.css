@@ -1,0 +1,88 @@
+nav{
+	position: fixed;
+}
+img.icon{
+	width: 10rem;
+	height: 3.5rem;
+}
+li.nav-item{
+	font-size:1.5rem;
+}
+div.int{
+    height:auto;
+}
+div.integration-text{
+    width: 30rem;
+    margin-top: 3rem;
+    text-align: justify;
+    font-size: 0.8rem;
+    padding-right: 1rem;
+}
+p.text{
+    font-family: luna;
+    font-size: 1.4rem;
+}
+img.iconfoot{
+	width: 10rem;
+	height: 5rem;
+}
+
+div.footer{
+	height: 10rem;
+	width: 100%;
+	background-color: rgb(250, 248, 248);
+	padding: 2rem;
+	line-height: 0.7rem;
+}
+.iconicon{
+	width: 3.1rem;
+	height: 2.8rem;
+}
+
+
+
+
+@media (min-width: 1200px) { 
+	nav{
+		position: fixed;
+	}
+	img.icon{
+		width: 10rem;
+		height: 2.5rem;
+	}
+	li.nav-item{
+		font-size:0.9rem;
+	}
+	div.int{
+		height:auto;
+	}
+	div.integration-text{
+		width: 30rem;
+		margin-top: 3rem;
+		text-align: justify;
+		font-size: 0.8rem;
+		padding-right: 1rem;
+	}
+	p.text{
+		font-family: luna;
+		font-size: 0.95rem;
+	}
+	img.iconfoot{
+		width: 10rem;
+		height: 5rem;
+	}
+	
+	div.footer{
+		height: 10rem;
+		width: 100%;
+		background-color: rgb(250, 248, 248);
+		padding: 2rem;
+		line-height: 0.7rem;
+	}
+	.iconicon{
+		width: 3.1rem;
+		height: 2.8rem;
+	}
+	 
+   
+}

@@ -1,0 +1,478 @@
+html{
+	overflow-x: hidden;
+}
+nav{
+	position: fixed;
+}
+
+h1.connect{
+position: relative;
+width: 18rem;
+height: 6rem;
+justify-content: center;
+align-items: center;
+top: 6.2rem;
+font-size: 2rem;
+left: -10rem;
+animation-name: slidein;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+animation-timing-function:cubic-bezier(.2, .2, .2, 1.5) ;
+}
+h1.connectx{
+	position: absolute;
+	width: 18rem;
+	height: 6rem;
+	justify-content: center;
+	align-items: center;
+	top: -3rem;
+	font-size: 1.9rem;
+}	
+
+@keyframes slidein{
+    from{left: -40rem;}
+    to{left: 0.1rem;}
+}
+
+
+p.ambition{
+	position: relative;
+	margin-top:8rem;
+	width: 17rem;
+	font-size: 0.8rem;
+	justify-content: center;
+	left: -10rem;
+	animation-name: slidin;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-timing-function:cubic-bezier(.2, .2, .2, 1.5) ;
+	
+}
+p.ambitionx{
+	position: absolute;
+	margin-top:2.5rem;
+	width: 17rem;
+	font-size: 0.8rem;
+	justify-content: center;
+	text-align: left;
+}
+@keyframes slidin{
+    from{left: -40rem;}
+    to{left: 0.1rem;}
+}
+img.build{
+	
+	margin-top: 2rem;
+	margin-left:-3rem;
+}
+li.nav-item{
+	font-size:1.2rem;
+}
+
+
+
+div.ellipse{
+	
+	justify-content: center;
+	align-items: center;
+	
+	height: 43rem;
+	width: 100%;
+	background-image: none;
+	background-repeat:no-repeat;
+	
+	animation: changedb 5s ease-in-out infinite forwards;
+
+	
+	
+
+}
+@keyframes changed{
+    10%{background-image: url(../image/Ellipse1.svg);}
+	20%{background-image: url(../image/Ellipse2.svg);}
+	30%{background-image: url(../image/Ellipse3.svg);}
+	40%{background-image: url(../image/Ellipse4.svg);}
+	50%{background-image: url(../image/Ellipse3.svg);}
+	60%{background-image: url(../image/Ellipse2.svg);}
+	70%{background-image: url(../image/Ellipse1.svg);}
+	
+
+
+}
+h1.whatwe{
+	height: 1rem;
+	text-align:center;
+	font-size: 2.5rem;
+	animation: changep 5s ease-in-out infinite forwards;
+}
+@keyframes changep{
+    10%{font-size: 1.4rem;}
+	20%{font-size: 1.3rem;}
+	30%{font-size: 1.2rem;}
+	40%{font-size: 1.1rem;}
+	50%{font-size: 1.2rem;}
+	60%{font-size: 1.3rem;}
+	70%{font-size: 1.4rem;}
+}
+p.wedo{
+	width:15rem ;
+	font-size:1.2rem ;
+	text-align: center;
+}
+div.calculation{
+	background-color: rgb(77, 19, 19);
+	width: 100%;
+	height:70rem;
+	margin-top:19rem;
+	
+	padding-right: 1.5rem;
+}
+h2.ship{
+
+	padding-top: 3rem;
+	color:white;
+	text-align: center;
+}
+h1.ship{
+
+	padding-top: 3rem;
+	color:white;
+	text-align: center;
+}
+p.lga{
+	color:white;
+	text-align: center;
+	width: 16rem;
+	font-family: "luna"
+}
+div.cal{
+	background-color: white;
+	justify-content: center;
+	align-content: center;
+	width:100%;
+	height: 26rem;
+	align-self: center;
+	text-align: center;
+}
+div.calx{
+	margin-top: 3rem;
+	background-color: white;
+	width:100%;
+	height: 20rem;
+	justify-content: center;
+	align-content: center;
+	align-self: center;
+	
+}
+div.state{
+	background-color: rgb(31, 3, 3);
+	width: 100%;
+	height:75rem;
+	margin-top: 0rem;
+}
+div ul.listedstate{
+	margin: 3rem;
+	
+}
+div ul li{
+	color: white;
+}
+h2.shipx{
+
+	padding-top: 3rem;
+	color:black;
+	text-align: center;
+}
+p.lgax{
+	color:black;
+	text-align: center;
+	width: 16rem;
+	font-family: "luna"
+}
+div.bgdeliver{
+	margin-top: -2rem;
+	height:100vh;
+	width: 100%;
+	background-color: rgb(233, 208, 214);;
+}
+div.nation{
+	padding-top: 2rem;
+	height: 80vh;
+	width: 100%;
+	background-color:rgb(230, 214, 214);
+	box-shadow: 2px 2px 2px 2px black;
+	
+}
+div.nationx{
+	display: none;
+	
+}
+div.nationxx{
+	padding-top: 2rem;
+	height: 80vh;
+	width: 100%;
+	background-color:rgb(240, 235, 235);
+	box-shadow: 2px 2px 2px 2px black;
+	
+}
+img.buid{
+	text-align: center;
+	justify-content: center;
+	margin-top: 1rem;
+	height: 25rem;
+	width: 20rem;
+}
+img.icon{
+	width: 10rem;
+	height: 3.5rem;
+}
+img.iconfoot{
+	width: 10rem;
+	height: 5rem;
+}
+
+div.footer{
+	height: 10rem;
+	width: 100%;
+	background-color: rgb(250, 248, 248);
+	padding: 2rem;
+	line-height: 0.7rem;
+}
+.iconicon{
+	width: 3.1rem;
+	height: 2.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {  
+nav{
+	position: fixed;
+}
+
+h1.connect{
+position: absolute;
+width: 14rem;
+height: 6rem;
+margin-left:10rem;
+top: 6.5rem;
+font-size: 2rem;
+
+}
+li.nav-item{
+	font-size:0.9rem;
+}
+h1.connectx{
+	position: absolute;
+	width: 14rem;
+	height: 6rem;
+	margin-left:10rem;
+	top: 3.5rem;
+	font-size: 2rem;
+	
+}
+p.ambition{
+	margin-top:14rem;
+	width: 17rem;
+	font-size: 0.8rem;
+	margin-left:9rem;
+}
+p.ambitionx{
+	margin-top:11rem;
+	width: 17rem;
+	font-size: 0.8rem;
+	margin-left:10rem;
+}
+img.build{
+	position: relative;
+	right: -9rem;
+	margin-top: 5rem;
+	animation-name: slidei;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-timing-function:cubic-bezier(.6, .6, .6, 1.5) ;
+}
+
+@keyframes slidei{
+    from{right: -40rem;}
+    to{right: -8rem;}
+}
+
+div.ellipse{
+	
+	justify-content: center;
+	align-items: center;
+	height: 33rem;
+	width: 34rem;
+	background-image: url(../image/Ellipse1.svg);
+	background-repeat:no-repeat;
+	animation: changedb 5s ease-in-out infinite forwards;
+
+	
+	
+
+}
+@keyframes changedb{
+    10%{background-image: url(../image/Ellipse1.svg);}
+	20%{background-image: url(../image/Ellipse2.svg);}
+	30%{background-image: url(../image/Ellipse3.svg);}
+	40%{background-image: url(../image/Ellipse4.svg);}
+	50%{background-image: url(../image/Ellipse3.svg);}
+	60%{background-image: url(../image/Ellipse2.svg);}
+	70%{background-image: url(../image/Ellipse1.svg);}
+	
+
+
+}
+h1.whatwe{
+	height: 1.5rem;
+	text-align: center;
+	font-size: 2.5rem;
+	animation: changep 5s ease-in-out infinite forwards;
+}
+@keyframes changep{
+    10%{font-size: 1.4rem;}
+	20%{font-size: 1.3rem;}
+	30%{font-size: 1.2rem;}
+	40%{font-size: 1.1rem;}
+	50%{font-size: 1.2rem;}
+	60%{font-size: 1.3rem;}
+	70%{font-size: 1.4rem;}
+	
+
+
+}
+p.wedo{
+	width:24rem ;
+	margin-right: 5rem;
+	font-size: 0.9rem;
+}
+button.xxz{
+	margin-left:-3rem;
+}
+div.calculation{
+	background-color: rgb(77, 19, 19);
+	width: 100%;
+	height:35rem;
+	margin-top: 6rem;
+}
+h2.ship{
+	margin-top: 3rem;
+	padding-top: 2rem;
+	color:white;
+	text-align: center;
+}
+h1.ship{
+	margin-top: 3rem;
+	padding-top: 2rem;
+	color:white;
+	text-align: center;
+}
+p.lga{
+	color:white;
+	text-align: center;
+	width: 30rem;
+}
+div.cal{
+	background-color: white;
+	width:30rem;
+	height: 20rem;
+	margin-left: 15rem;
+}
+div.calx{
+	background-color: white;
+	width:15rem;
+	height: 20rem;
+	margin-right: 10rem;
+	margin-top: 0rem;
+}
+div.state{
+	background-color: rgb(31, 3, 3);
+	width: 100%;
+	height:39rem;
+	margin-top: -3rem;
+}
+div ul.listedstate{
+	margin: 6rem;
+	
+}
+div ul li{
+	color: white;
+}
+h2.shipx{
+	padding-top: 2rem;
+	color:black;
+	text-align: center;
+}
+p.lgax{
+	color:black;
+	text-align: center;
+	width: 30rem;
+}
+div.bgdeliver{
+	margin-top: -2rem;
+	width:100%;
+	height:70vh;
+	background-color:rgb(233, 208, 214);
+}
+div.nation{
+	padding-top: 2rem;
+	height: 60vh;
+	width: 100%;
+	background-color:rgb(230, 214, 214);
+	box-shadow: 2px 2px 2px 2px black;
+	
+}
+div.nationx{
+	display: grid;
+	padding-top: 2rem;
+	height: 60vh;
+	width: 100%;
+	background-color:rgb(235, 224, 224);
+	box-shadow: 2px 2px 2px 2px black;
+	
+}
+div.nationxx{
+	padding-top:2 rem;
+	height: 60vh;
+	width: 100%;
+	background-color:rgb(240, 235, 235);
+	box-shadow: 1px 1px 1px 1px black;
+	
+}
+img.buid{
+	margin-left: 2rem;
+	margin-top:0rem;
+	height: 25rem;
+	width: 20rem;
+}
+div.footer{
+	height: 10rem;
+	width: 100%;
+	background-color: rgb(250, 248, 248);
+	padding: 2rem;
+	line-height: 0.5rem;
+}
+
+img.icon{
+	width: 10rem;
+	height: 2.3rem;
+}
+img.iconfoot{
+	width: 10rem;
+	height: 5rem;
+}
+
+
+
+
+}

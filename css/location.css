@@ -1,0 +1,286 @@
+html{
+    overflow-x: hidden;
+}
+nav{
+	position: fixed;
+}
+img.icon{
+	width: 10rem;
+	height: 2.5rem;
+}
+div.int{
+    height:auto;
+}
+div.integration-text{
+    width: 33rem;
+    margin-top: 5rem;
+    text-align: justify;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+p.text{
+    font-family: luna;
+}
+img.iconfoot{
+	width: 10rem;
+	height: 5rem;
+}
+
+div.footer{
+	height: 10rem;
+	width: 100%;
+	background-color: rgb(250, 248, 248);
+	padding: 2rem;
+    line-height: 0.7rem;
+    padding-bottom: 2rem;
+}
+.iconicon{
+	width: 3.1rem;
+	height: 2.8rem;
+}
+h1.connect{
+    position: relative;
+    width: 14rem;
+    height: 6rem;
+    left:-10rem;
+    top: 6.5rem;
+    font-size: 2rem;
+    animation-name: slidin;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-timing-function:cubic-bezier(.2, .2, .2, 1.5) ;
+    
+    }
+    h1.connectx{
+        position: absolute;
+        width: 14rem;
+        height: 6rem;
+        margin-left:10rem;
+        top: 3.5rem;
+        font-size: 2rem;
+        
+    }
+    p.ambition{
+        position: relative;
+        margin-top:8rem;
+        width: 19rem;
+        font-size: 1rem;
+        left:-10rem;
+        animation-name: slidin;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-timing-function:cubic-bezier(.1, .1, .1, 1.0) ;
+    }
+    @keyframes slidin{
+        from{left: -40rem;}
+        to{left: 1rem;}
+    }
+    p.ambitionx{
+        margin-top:11rem;
+        width: 17rem;
+        font-size: 0.8rem;
+        margin-left:10rem;
+    }
+    img.build{
+        position: relative;
+        right: -9rem;
+        margin-top: 5rem;
+        animation-name: slidei;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-timing-function:cubic-bezier(.6, .6, .6, 1.5) ;
+    }
+    
+    @keyframes slidei{
+        from{right: -40rem;}
+        to{right: 0rem;}
+    }
+    div.state{
+        background-color: rgb(31, 3, 3);
+        width: 100%;
+        height:92rem;
+        margin-top: 0rem;
+    }
+    div ul.listedstate{
+        margin: 4rem;
+        margin-top: 3rem;
+        
+    }
+    div ul li{
+        color: white;
+    }
+    h2.shipx{
+    
+        padding-top: 3rem;
+        color:black;
+        text-align: center;
+    }
+    p.lgax{
+        color:black;
+        text-align: center;
+        width: 16rem;
+        font-family: "luna"
+    }
+    h2.ship{
+
+        padding-top: 3rem;
+        color:white;
+        text-align: center;
+    }
+    h1.ship{
+    
+        padding-top: 3rem;
+        color:white;
+        text-align: center;
+    }
+    p.lga{
+        color:white;
+        text-align: center;
+        width: 20rem;
+        font-family: "luna"
+    }
+
+
+
+
+
+@media (min-width: 1200px) {  
+   
+nav{
+	position: fixed;
+}
+img.icon{
+	width: 10rem;
+	height: 2.5rem;
+}
+div.int{
+    height:auto;
+}
+div.integration-text{
+    width: 33rem;
+    margin-top: 5rem;
+    text-align: justify;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+p.text{
+    font-family: luna;
+}
+img.iconfoot{
+	width: 10rem;
+	height: 5rem;
+}
+
+div.footer{
+	height: 10rem;
+	width: 100%;
+	background-color: rgb(250, 248, 248);
+	padding: 2rem;
+	line-height: 0.7rem;
+}
+.iconicon{
+	width: 3.1rem;
+	height: 2.8rem;
+}
+h1.connect{
+    position: relative;
+    width: 14rem;
+    height: 6rem;
+    left:-10rem;
+    top: 6.5rem;
+    font-size: 2rem;
+    animation-name: slidin;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-timing-function:cubic-bezier(.2, .2, .2, 1.5) ;
+    
+    }
+    h1.connectx{
+        position: absolute;
+        width: 14rem;
+        height: 6rem;
+        margin-left:10rem;
+        top: 3.5rem;
+        font-size: 2rem;
+        
+    }
+    p.ambition{
+        position: relative;
+        margin-top:8rem;
+        width: 19rem;
+        font-size: 0.8rem;
+        left:-10rem;
+        animation-name: slidin;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-timing-function:cubic-bezier(.2, .2, .2, 1.5) ;
+    }
+    @keyframes slidin{
+        from{left: -40rem;}
+        to{left: 6rem;}
+    }
+    p.ambitionx{
+        margin-top:11rem;
+        width: 17rem;
+        font-size: 0.8rem;
+        margin-left:10rem;
+    }
+    img.build{
+        position: relative;
+        right: -9rem;
+        margin-top: 5rem;
+        animation-name: slidei;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-timing-function:cubic-bezier(.6, .6, .6, 1.5) ;
+    }
+    
+    @keyframes slidei{
+        from{right: -40rem;}
+        to{right: -8rem;}
+    }
+    div.state{
+        background-color: rgb(31, 3, 3);
+        width: 100%;
+        height:42rem;
+        margin-top: 0rem;
+    }
+    div ul.listedstate{
+        margin: 6rem;
+        margin-top: 3rem;
+        
+    }
+    div ul li{
+        color: white;
+    }
+    h2.shipx{
+    
+        padding-top: 3rem;
+        color:black;
+        text-align: center;
+    }
+    p.lgax{
+        color:black;
+        text-align: center;
+        width: 16rem;
+        font-family: "luna"
+    }
+    h2.ship{
+
+        padding-top: 3rem;
+        color:white;
+        text-align: center;
+    }
+    h1.ship{
+    
+        padding-top: 3rem;
+        color:white;
+        text-align: center;
+    }
+    p.lga{
+        color:white;
+        text-align: center;
+        width: 20rem;
+        font-family: "luna"
+    }
+}

@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-light" style="position:relative;width:100%;margin-top:0.5rem;box-shadow:2px 2px black;color: black;">
+    <a class="navbar-brand" href="#">
+      <img src="image/emoji.svg"  class="d-inline-block align-top" alt="" loading="lazy">
+        ricksbond..
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav barx">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../brickbond/about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../brickbond/offer.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../brickbond/gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item wellcome">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">wellcome!!..Check this Out</a>
+        </li>
+        <li class="nav-item"><a href="#down">
+         
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+  <div class="row justify-content-around">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+
+
+
+  https://www.figma.com/proto/q79Ge2gnnc6XZMlqYkEYyN/expres?node-id=273%3A0&scaling=min-zoom

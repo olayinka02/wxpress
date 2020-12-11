@@ -1,0 +1,112 @@
+
+nav{
+	position: fixed;
+}
+img.icon{
+	width: 10rem;
+	height: 2.5rem;
+}
+div.int{
+    height:auto;
+}
+div.integration-text{
+    width: 33rem;
+    margin-top: 5rem;
+    text-align: justify;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+p.text{
+	font-family: luna;
+	font-size: 1.6rem;
+	margin-right: 1.5rem;
+}
+.lise{
+	font-family: luna;
+	font-size: 1.6rem;
+	margin-right: 1.5rem;
+}
+img.iconfoot{
+	width: 10rem;
+	height: 5rem;
+}
+button.bxx{
+	width: 7rem;
+	height:3rem;
+}
+div.footer{
+	height: 13rem;
+	width: 100%;
+	background-color: rgb(250, 248, 248);
+	padding: 2rem;
+	line-height: 0.9rem;
+	font-size: 1.3rem;
+}
+.iconicon{
+	width: 3.1rem;
+	height: 2.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {  
+   
+
+nav{
+	position: fixed;
+}
+img.icon{
+	width: 10rem;
+	height: 2.5rem;
+}
+div.int{
+    height:auto;
+}
+div.integration-text{
+    width: 33rem;
+    margin-top: 5rem;
+    text-align: justify;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+
+p.text{
+	font-family: luna;
+	font-size: 0.9rem;
+	margin-right: 1.5rem;
+}
+.lise{
+	font-family: "luna";
+	font-size: 0.9rem;
+	margin-right: 1.5rem;
+}
+img.iconfoot{
+	width: 10rem;
+	height: 5rem;
+}
+
+div.footer{
+	height: 10rem;
+	width: 100%;
+	background-color: rgb(250, 248, 248);
+	padding: 2rem;
+	line-height: 0.7rem;
+	font-size: 0.8rem;
+}
+.iconicon{
+	width: 3.1rem;
+	height: 2.8rem;
+}
+button.bxx{
+	width: 7rem;
+	height:2.5rem;
+}
+}
