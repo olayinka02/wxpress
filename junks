@@ -45,3 +45,35 @@
 
 
   https://www.figma.com/proto/q79Ge2gnnc6XZMlqYkEYyN/expres?node-id=273%3A0&scaling=min-zoom
+
+
+
+<form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1" style="float:left;">Register as : </label>
+      <div class="form-check"  style="float:left;">
+        <input class="form-check-input"  type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+        <label class="form-check-label" for="exampleRadios1">
+          Sender
+        </label>
+      </div><br/>
+      <div class="form-check"  style="float:left;">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+        <label class="form-check-label" for="exampleRadios2">
+          Receiver
+        </label>
+      </div>
+
+      
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name"/><br/>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email-address"/><br/>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Phone-N0"/><br/>
+      <label for="exampleFormControlInput1" style="float:left;">Password:</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="******"/><br/>
+      <label for="exampleFormControlInput1" style="float:left;">Confirm Password:</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="*******"/><br/>
+
+      
+      
+    </div>
+</form>

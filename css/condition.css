@@ -7,6 +7,7 @@ img.icon{
 }
 li.nav-item{
 	font-size:1.5rem;
+	
 }
 div.int{
     height:auto;
@@ -20,7 +21,8 @@ div.integration-text{
 }
 p.text{
     font-family: luna;
-    font-size: 1.4rem;
+	font-size: 1.4rem;
+	margin: 1rem;
 }
 img.iconfoot{
 	width: 10rem;
@@ -52,6 +54,7 @@ div.footer{
 	}
 	li.nav-item{
 		font-size:0.9rem;
+		display: inline;
 	}
 	div.int{
 		height:auto;
@@ -66,6 +69,7 @@ div.footer{
 	p.text{
 		font-family: luna;
 		font-size: 0.95rem;
+
 	}
 	img.iconfoot{
 		width: 10rem;

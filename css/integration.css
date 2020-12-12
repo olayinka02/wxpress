@@ -1,6 +1,9 @@
 nav{
 	position: fixed;
 }
+li.nav-item{
+	display: none;
+}
 img.icon{
 	width: 10rem;
 	height: 2.5rem;
@@ -52,6 +55,9 @@ img.icon{
 }
 div.int{
     height: 53vh;
+}
+li.nav-item{
+	display: inline;
 }
 div.integration-text{
     width: 26rem;
