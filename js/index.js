@@ -5,5 +5,9 @@ function parallax(element, distance, speed){
 }
 
 window.addEventListener( 'scroll', function(){
-    parallax('.ellipse', window.scrollY, 0.2);
+    parallax('.ellipse', window.scrollY, 0.8);
+});
+
+window.addEventListener( 'scroll', function(){
+    parallax('#calculator', window.scrollY, 0.8);
 });
