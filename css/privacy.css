@@ -10,20 +10,20 @@ div.int{
     height:auto;
 }
 div.integration-text{
-    width: 33rem;
+    width:100%;
     margin-top: 5rem;
     text-align: justify;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     padding: 1rem;
 }
 p.text{
 	font-family: luna;
-	font-size: 1.6rem;
+	font-size: 1.1rem;
 	margin-right: 1.5rem;
 }
 .lise{
 	font-family: luna;
-	font-size: 1.6rem;
+	font-size: 1.2rem;
 	margin-right: 1.5rem;
 }
 img.iconfoot{
