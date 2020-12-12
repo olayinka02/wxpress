@@ -9,9 +9,9 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
  
-<link rel="stylesheet" href="../wxpress/css/privacy.css"/>
+<link rel="stylesheet" href="/css/privacy.css"/>
 
-<script type="text/javascript" src="../wxpress/js/index.js">
+<script type="text/javascript" src="/js/index.js">
 
 </script>
 
@@ -34,16 +34,16 @@
       <ul class="navbar-nav mr-auto">
        
         <li class="nav-item">
-          <a class="nav-link  text-danger" href="../wxpress/index.html">Home</a>
+          <a class="nav-link  text-danger" href="/index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  text-danger" href="../wxpress/index.html#calculation">Shopping Calculation</a>
+          <a class="nav-link  text-danger" href="/index.html#calculation">Shopping Calculation</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  text-danger" href="../wxpress/location.html">Location</a>
+          <a class="nav-link  text-danger" href="/location.html">Location</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link  text-danger" href="../wxpress/integration.html">API Integration</a>
+          <a class="nav-link  text-danger" href="/integration.html">API Integration</a>
         </li>
         
       </ul>
@@ -180,11 +180,45 @@
           </button>
         </div>
         <div class="modal-body">
-          ...
+          
+          <form class="reg">
+            <div class="form-group">
+              <label for="exampleFormControlInput1" style="float:left;">Register as : </label>
+              <div class="form-check"  style="float:left;">
+                <input class="form-check-input"  type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Sender
+                </label>
+              </div><br/>
+              <div class="form-check"  style="float:left;">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  Receiver
+                </label>
+              </div>
+        
+              
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name"/><br/>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email-address"/><br/>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Phone-N0"/><br/>
+              <label for="exampleFormControlInput1" style="float:left;">Password:</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="******"/><br/>
+              <label for="exampleFormControlInput1" style="float:left;">Confirm Password:</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="*******"/><br/>
+               <br/>
+               <label>Already have an account with us</label>
+               <a href="/login.html">
+               <button type="button" class="btn btn-outline-danger my-2 my-sm-0">Login</button>
+               </a>
+              
+            </div>
+        </form>
+
+        
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-outline-secondary my-2 my-sm-0" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-outline-danger my-2 my-sm-0">Understood</button>
+          <button type="button" class="btn btn-outline-danger my-2 my-sm-0">Register</button>
         </div>
       </div>
     </div>
@@ -199,10 +233,10 @@
   
       </div>
       <div class="col-sm">
-        <a href="../wxpress/location.html" > <p>Location</p></a>
+        <a href="/location.html" > <p>Location</p></a>
         <a href="#top" ><p>Privacy</p></a>
-        <a href="../wxpress/integration.html" ><p>API Integration</p></a>
-        <a href="../wxpress/condition.html" > <p>Term And Condition</p></a>
+        <a href="/integration.html" ><p>API Integration</p></a>
+        <a href="/condition.html" > <p>Term And Condition</p></a>
        
       </div>
       <div class="col-sm">
