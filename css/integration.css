@@ -2,7 +2,7 @@ nav{
 	position: fixed;
 }
 li.nav-item{
-	display: none;
+	display: inline;
 }
 img.icon{
 	width: 10rem;
