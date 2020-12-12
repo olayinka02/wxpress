@@ -9,11 +9,12 @@ img.icon{
 	height: 2.5rem;
 }
 div.int{
-	height: 53vh;
+	height: 60vh;
 	width: 100%;
 }
 div.integration-text{
-    width: 80%;
+	width: 90%;
+	
 	margin-top: 5rem;
 	padding-right: 2rem;
 }
