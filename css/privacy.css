@@ -1,4 +1,8 @@
 
+html{
+	overflow-x: hidden;
+	
+}
 nav{
 	position: fixed;
 }
@@ -18,12 +22,12 @@ div.integration-text{
 }
 p.text{
 	font-family: luna;
-	font-size: 1.1rem;
+	font-size: 0.8rem;
 	margin-right: 1.5rem;
 }
 .lise{
 	font-family: luna;
-	font-size: 1.2rem;
+	font-size: 0.8rem;
 	margin-right: 1.5rem;
 }
 img.iconfoot{
